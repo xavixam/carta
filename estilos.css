@@ -1,10 +1,43 @@
-#arriba {
-    margin-left: 85%;
-    margin-right: 5%;
+/*Seleccionar todo*/
+* {
+    word-spacing: 0.25;
+    writing-mode: horizontal-tb;
+    word-wrap: break-word;
+    color: white;
+    hyphens: none;
 }
 
+/*Encabezado*/
+#arriba {
+    margin-left: 75%;
+    margin-right: 15%;
+    font-family: monospace;
+}
+
+/*Cuerpo de la carta*/
 #resto {
-    text-align: left;
-    margin-right: 5%;
-    margin-left: 5%;
+    text-align: justify;
+    margin-right: 10%;
+    margin-left: 10%;
+    font-family: monospace;
+    line-height: 1.5;
+    font-size: 400;
+}
+
+/*Títulos*/
+h1, h2 {
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+/*Tipos de danza*/
+.tipos {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+/*Los párrafos y elementos de lista*/
+p, li {
+    font-size: larger;
 }
